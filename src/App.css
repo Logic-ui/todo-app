@@ -1,0 +1,95 @@
+/* General App Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Todo Item */
+.todo {
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.edit-input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn.complete {
+  background: #007bff;
+  color: white;
+}
+
+.btn.edit {
+  background: #ffc107;
+  color: white;
+}
+
+.btn.delete {
+  background: #dc3545;
+  color: white;
+}
+
+.btn.add {
+  background: #4CAF50;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
